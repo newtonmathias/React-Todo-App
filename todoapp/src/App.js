@@ -6,7 +6,8 @@ class App extends Component {
   state = {
     todos : [
       {id : 1, content: 'finish react project'},
-      {id : 2, content: 'play FIFA19'}
+      {id : 2, content: 'play FIFA19'},
+      {id : 3, content: 'go to bed'}
     ]
   }
   deleteTodo = (id)=> {
